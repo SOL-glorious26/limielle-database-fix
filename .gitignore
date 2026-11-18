@@ -1,0 +1,15 @@
+# File sementara Office / draw.io
+~$*
+*.tmp
+*.bkp
+*.drawio.bkp
+.$*
+
+# Sistem operasi
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

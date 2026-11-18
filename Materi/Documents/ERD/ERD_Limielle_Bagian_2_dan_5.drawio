@@ -1,0 +1,280 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram id="erd-limielle" name="ERD Limielle (Bagian 2 &amp; 5)">
+    <mxGraphModel dx="1716" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1410" pageHeight="890" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;whiteSpace=wrap;" value="ERD Limielle Nail Art — Bagian 2 (Booking &amp; Time Slot) dan Bagian 5 (Stok &amp; Pengguna)" vertex="1">
+          <mxGeometry height="32" width="1200" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PENGGUNA" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PENGGUNA" vertex="1">
+          <mxGeometry height="84" width="220" x="410" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PENGGUNA_k0" parent="e_PENGGUNA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#82b366;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PENGGUNA_a0" parent="e_PENGGUNA" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#82b366;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_pengguna" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PENGGUNA_k1" parent="e_PENGGUNA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PENGGUNA_a1" parent="e_PENGGUNA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="nama" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_INVOICE" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="INVOICE" vertex="1">
+          <mxGeometry height="110" width="220" x="730" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="e_INVOICE_k0" parent="e_INVOICE" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#666666;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_INVOICE_a0" parent="e_INVOICE" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#666666;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="no_invoice" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_INVOICE_k1" parent="e_INVOICE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="FK" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_INVOICE_a1" parent="e_INVOICE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_pengguna" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_INVOICE_k2" parent="e_INVOICE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_INVOICE_a2" parent="e_INVOICE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="..." vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="PELANGGAN" vertex="1">
+          <mxGeometry height="136" width="220" x="110" y="369" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN_k0" parent="e_PELANGGAN" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#666666;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN_a0" parent="e_PELANGGAN" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#666666;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_pelanggan" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN_k1" parent="e_PELANGGAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN_a1" parent="e_PELANGGAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="nama" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN_k2" parent="e_PELANGGAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN_a2" parent="e_PELANGGAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="no_telepon" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN_k3" parent="e_PELANGGAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="UK" vertex="1">
+          <mxGeometry height="26" width="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_PELANGGAN_a3" parent="e_PELANGGAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="kode_referral" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="BOOKING" vertex="1">
+          <mxGeometry height="188" width="220" x="410" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_k0" parent="e_BOOKING" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#6c8ebf;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_a0" parent="e_BOOKING" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#6c8ebf;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_booking" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_k1" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="FK" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_a1" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_pelanggan" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_k2" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="FK" vertex="1">
+          <mxGeometry height="26" width="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_a2" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_pengguna" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_k3" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_a3" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="waktu_pemesanan" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_k4" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_a4" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="status" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_k5" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BOOKING_a5" parent="e_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="kanal_booking" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DETAIL_BOOKING" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="DETAIL_BOOKING" vertex="1">
+          <mxGeometry height="110" width="220" x="720" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DETAIL_BOOKING_k0" parent="e_DETAIL_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK, FK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DETAIL_BOOKING_a0" parent="e_DETAIL_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_booking" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DETAIL_BOOKING_k1" parent="e_DETAIL_BOOKING" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#6c8ebf;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK, FK" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DETAIL_BOOKING_a1" parent="e_DETAIL_BOOKING" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#6c8ebf;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_layanan" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DETAIL_BOOKING_k2" parent="e_DETAIL_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DETAIL_BOOKING_a2" parent="e_DETAIL_BOOKING" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="harga_kesepakatan" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="LAYANAN" vertex="1">
+          <mxGeometry height="162" width="220" x="1020" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_k0" parent="e_LAYANAN" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#666666;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_a0" parent="e_LAYANAN" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#666666;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_layanan" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_k1" parent="e_LAYANAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_a1" parent="e_LAYANAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="nama_layanan" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_k2" parent="e_LAYANAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_a2" parent="e_LAYANAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="deskripsi" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_k3" parent="e_LAYANAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_a3" parent="e_LAYANAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="harga_acuan" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_k4" parent="e_LAYANAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="e_LAYANAN_a4" parent="e_LAYANAN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="durasi_estimasi" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="TIME_SLOT" vertex="1">
+          <mxGeometry height="162" width="220" x="410" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_k0" parent="e_TIME_SLOT" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#6c8ebf;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_a0" parent="e_TIME_SLOT" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#6c8ebf;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_slot" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_k1" parent="e_TIME_SLOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="FK" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_a1" parent="e_TIME_SLOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_booking" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_k2" parent="e_TIME_SLOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_a2" parent="e_TIME_SLOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="tanggal" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_k3" parent="e_TIME_SLOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_a3" parent="e_TIME_SLOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="jam_mulai" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_k4" parent="e_TIME_SLOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="e_TIME_SLOT_a4" parent="e_TIME_SLOT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="jam_selesai" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="r0" edge="1" parent="1" source="e_PELANGGAN" style="startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;startSize=12;endSize=12;html=1;rounded=0;strokeWidth=1.5;fontSize=11;fontStyle=2;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e_BOOKING" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="e_PENGGUNA" style="startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;startSize=12;endSize=12;html=1;rounded=0;strokeWidth=1.5;fontSize=11;fontStyle=2;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="e_BOOKING" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="e_PENGGUNA" style="startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;startSize=12;endSize=12;html=1;rounded=0;strokeWidth=1.5;fontSize=11;fontStyle=2;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e_INVOICE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="e_BOOKING" style="startArrow=ERmandOne;endArrow=ERoneToMany;startFill=0;endFill=0;startSize=12;endSize=12;html=1;rounded=0;strokeWidth=1.5;fontSize=11;fontStyle=2;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e_DETAIL_BOOKING" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="e_LAYANAN" style="startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;startSize=12;endSize=12;html=1;rounded=0;strokeWidth=1.5;fontSize=11;fontStyle=2;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="e_DETAIL_BOOKING" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" edge="1" parent="1" source="e_BOOKING" style="startArrow=ERzeroToOne;endArrow=ERoneToMany;startFill=0;endFill=0;startSize=12;endSize=12;html=1;rounded=0;strokeWidth=1.5;fontSize=11;fontStyle=2;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="e_TIME_SLOT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+              <mxCell id="s5_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#666666;whiteSpace=wrap;" value="Bagian 5: Stok (prioritas rendah)" vertex="1">
+          <mxGeometry height="26" width="300" x="720" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-25" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;swimlaneFillColor=#ffffff;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="BARANG" vertex="1">
+          <mxGeometry height="110" width="220" x="720" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-26" parent="s5_4QI9v-Iezg_sRKp4Ap7c-25" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#FFFFFF;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-27" parent="s5_4QI9v-Iezg_sRKp4Ap7c-25" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=#FFFFFF;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_barang" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-28" parent="s5_4QI9v-Iezg_sRKp4Ap7c-25" style="text;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-29" parent="s5_4QI9v-Iezg_sRKp4Ap7c-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="nama_barang" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-30" parent="s5_4QI9v-Iezg_sRKp4Ap7c-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-31" parent="s5_4QI9v-Iezg_sRKp4Ap7c-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="jumlah_stok" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-32" parent="1" style="swimlane;container=1;collapsible=0;startSize=32;fontStyle=1;fontSize=13;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" value="MUTASI_STOK" vertex="1">
+          <mxGeometry height="162" width="220" x="1020" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-33" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=none;connectable=0;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="PK" vertex="1">
+          <mxGeometry height="26" width="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-34" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;fillColor=none;strokeColor=none;connectable=0;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_mutasi" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-35" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="FK" vertex="1">
+          <mxGeometry height="26" width="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-36" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="text;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="id_barang" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-37" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-38" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="tanggal" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-39" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-40" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="jenis" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-41" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontStyle=1;fontSize=11;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="26" width="52" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-42" parent="s5_4QI9v-Iezg_sRKp4Ap7c-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;fontSize=12;html=1;whiteSpace=wrap;" value="jumlah" vertex="1">
+          <mxGeometry height="26" width="168" x="52" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="s5_4QI9v-Iezg_sRKp4Ap7c-43" edge="1" parent="1" source="s5_4QI9v-Iezg_sRKp4Ap7c-25" style="startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;startSize=12;endSize=12;html=1;rounded=0;strokeWidth=1.5;fontSize=11;fontStyle=2;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s5_4QI9v-Iezg_sRKp4Ap7c-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
